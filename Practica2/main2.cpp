@@ -28,9 +28,18 @@ int main (){
 	std::cout << "Bienvenido\n";
 	std::cout << "Ingresa el alfabeto. Solamente se se pueden letras de la 'a' a la 'z' \n";
 	std::cout << "La 'E' en mayuscula se va a considerar como vacio \n";
-	char letra;
-	std::cin >> letra; //le pido al usuario que ingrese el simbolo 
-	std::cout <<"Tu letra es \n"<<letra;;
+	std::cout << "Ingrese el numero de simbolos que tendrá el alfabeto \n";
+	int n;
+	std::cin>>n;
+	std::cout << "Ingrese los simbolos, uno por uno, luego de enter \n";
+		for (int i=0; i<=n; i++){
+			char letra;
+			string alfabeto [] = new stringList;
+		std::cin >> letra; //le pido al usuario que ingrese el simbolo 
+		std::cout <<"simbolo ingresado es:  \n"<<letra;;
+		letra << alfabeto;
+		}
+		
 	
 	
 	std::cin.get(); // le pido al usuario que presionen cualquier tecla
